@@ -6,16 +6,16 @@
 //  Copyright (c) 2015 Funky Monkey, www.funky-monkey.nl. All rights reserved.
 //
 
-struct IsoCountryInfo {
+public struct IsoCountryInfo {
 
-    var name:String
-    var numeric:String
-    var alpha2:String
-    var alpha3:String
-    var calling:String
-    var currency:String
-    var continent:String
-    var flag: String {
+    public var name:String
+    public var numeric:String
+    public var alpha2:String
+    public var alpha3:String
+    public var calling:String
+    public var currency:String
+    public var continent:String
+    public var flag: String {
         return IsoCountries.flag(countryCode: alpha2)
     }
 }
